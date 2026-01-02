@@ -20,6 +20,7 @@ The black outline represents a soccer goal, measuring 8 yards across and 2.67 ta
 
 The logistic regression model comes with an interactive portion to calculate the probability of scoring in any location utilizing x-y coordinates. Any data on or beyond -4 or +4 on the x-axis will output 0 probability as it is beyond the goal limits. Any data on or beyond +2.67 on the y-axis will output 0 probability as it is beyond the goal limits. Any data below 0 yards on the y-axis are not valid data points.
 
+The current probabilty displayed at the end of the code is the probability of scoring at (0,0).
 
 Credits: Emmanuel-Angelo Ojadi and Eduardo Medina Tapia
 
